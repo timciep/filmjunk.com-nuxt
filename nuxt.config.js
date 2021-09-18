@@ -1,4 +1,31 @@
 export default {
+  publicRuntimeConfig: {
+    year: new Date().getFullYear(),
+
+    links: {
+      '/filmjunk-podcast': 'Podcast',
+      '/gamejunk-podcast': 'Game Junk',
+      '/balljunk-podcast': 'Ball Junk',
+      '/glossary': 'Glossary'
+    },
+
+    social_links: [
+      {
+        name: 'Additional Content on Patreon',
+        url: '',
+        icon: ['fab', 'patreon'],
+      }, {
+        name: 'Premium Podcasts on Bandcamp',
+        url: '',
+        icon: ['fab', 'bandcamp'],
+      }, {
+        name: 'Back Episodes on Gumroad',
+        url: '',
+        icon: ['fas', 'clock']
+      }
+    ]
+  },
+  
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -7,14 +34,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'filmjunk.com-static-nuxt',
+    title: 'Film Junk',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Film Junk' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -37,6 +64,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -55,5 +83,16 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  fontawesome: {
+    icons: {
+      solid: [
+        'faBars', 'faTimes', 'faClock', 'faBackward'
+      ],
+      brands: [
+        'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp'
+      ]
+    }
   }
 }
