@@ -31,7 +31,14 @@ async function parseFeedBurnerFeed (type, url, key) {
       });
 
       // console.log(out_array);
-      fs.writeFileSync(path.resolve() + '/content/' + key + '.json', JSON.stringify(out_array), { flag: 'w+' });
+
+      const dir = path.resolve() + '/content';
+
+      if ( ! fs.existsSync(dir)) {
+         fs.mkdirSync(dir);
+      }
+
+      fs.writeFileSync(dir + '/' + key + '.json', JSON.stringify(out_array), { flag: 'w+' });
   });
 }
 
