@@ -43,7 +43,7 @@
                            </div>
 
                            <div class="mt-1">
-                              <div class="text-blue-900 hover:text-blue-700">{{ article.title }}</div>
+                              <div class="text-blue-fj hover:text-purple-fj">{{ article.title }}</div>
                            </div>
                      </div>
                   </nuxt-link>

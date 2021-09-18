@@ -1,5 +1,12 @@
 <template>
    <div class="max-w-screen-md md:mx-auto mx-3 space-y-3">
+      <h1 class="text-xl font-bold">Film Junk Glossary</h1>
+
+      <div class="mt-3 mb-2">
+         The following is a guide to the many colourful terms, phrases and inside jokes that often turn up on the Film Junk Podcast. The goal is to help new listeners become acquainted with the show’s vast history and unique mythology. If you have any other suggestions for new entries, please send them to
+         <a href="mailto:filmjunk@gmail.com">filmjunk@gmail.com</a>.
+      </div>
+
       <p><strong>3Don&#8217;t</strong> &#8211; A potential movement proposed by Dax to avoid 3D movies wherever possible due to dark and blurry visuals and a disappointing overall moviegoing experience.</p>
       <p><strong>4KY (Jelly)</strong> &#8211; A term referring to the phenomenon where one&#8217;s opinion of a movie can be elevated or a particularly bad movie can be made more bearable by watching it in 4K resolution. Also known as the 4K Bump.</p>
       <div class="regularbuttondark floatright"><a href="https://clyp.it/jz2km2ns" target="_blank"> Listen </a></div>

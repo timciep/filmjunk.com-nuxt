@@ -6,7 +6,8 @@ export default {
       '/filmjunk-podcast': 'Podcast',
       '/gamejunk-podcast': 'Game Junk',
       '/balljunk-podcast': 'Ball Junk',
-      '/glossary': 'Glossary'
+      '/glossary': 'Glossary',
+      '/about': 'About'
     },
 
     social_links: [
