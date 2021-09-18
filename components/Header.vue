@@ -8,10 +8,10 @@
       </NuxtLink>
 
       <div class="md:hidden text-xl">
-      <button @click="show = ! show" class="py-2 px-4">
-         <font-awesome-icon v-show="! show" :icon="['fas', 'bars']" />
-         <font-awesome-icon v-show="show" :icon="['fas', 'times']" />
-      </button>
+        <button @click="show = ! show" class="py-2 px-4">
+          <font-awesome-icon v-show="! show" :icon="['fas', 'bars']" />
+          <font-awesome-icon v-show="show" :icon="['fas', 'times']" />
+        </button>
       </div>
 
       <div

@@ -27,7 +27,7 @@
             <ul class="space-y-3">
                <li v-for="article, idx in articles" :key="idx">
                   <nuxt-link :to="article.path">
-                     <div class="bg-gray-200 md:rounded py-2 px-3">
+                     <div class="bg-white shadow md:rounded py-2 px-3">
                            <div class="flex items-beginning justify-between">
                                  <div class="text-sm text-gray-800">
                                        <span v-if="'/filmjunk-podcast' === article.dir">🎥</span>

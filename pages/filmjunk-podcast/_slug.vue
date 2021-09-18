@@ -10,7 +10,7 @@
          <div class="text-sm text-gray-800 mt-1">{{ new Date(page.date).toLocaleDateString() }}</div>
       </div>
 
-      <div v-html="page.description" class="py-2 px-3 mt-4 bg-gray-200 md:rounded" />
+      <div v-html="page.description" class="py-2 px-3 mt-4 md:rounded" />
 
       <div v-if="page.mp3_link" class="mt-3 mx-2">
          <a :href="page.mp3_link" target="_blank" class="text-blue-800 hover:text-blue-500">

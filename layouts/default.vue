@@ -1,8 +1,8 @@
 <template>
-   <div class="min-h-screen">
+   <div class="min-h-screen bg-gray-100">
       <Header />
 
-      <div class="my-6">
+      <div class="py-6">
          <Nuxt />
       </div>
 

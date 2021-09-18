@@ -5,7 +5,7 @@
 
       <div class="mt-2">
         <input id="search" v-model="q" placeholder="Search..." 
-        class="rounded p-2 bg-gray-100 border border-gray-300" />
+        class="rounded p-2 bg-white border border-gray-300" />
       </div>
     </div>
 
@@ -13,7 +13,7 @@
         <ul class="space-y-3">
           <li v-for="article, idx in articles" :key="idx">
             <nuxt-link :to="article.path">
-              <div class="bg-gray-200 md:rounded py-2 px-3">
+              <div class="bg-white shadow md:rounded py-2 px-3">
                 <div class="flex items-beginning justify-between gap-3">
                   <div class="text-blue-900 hover:text-blue-700">{{ article.title }}</div>
                   <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
