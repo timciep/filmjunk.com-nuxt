@@ -15,7 +15,7 @@
       <div class="space-y-1 mt-3 mx-2">
          <div v-if="page.mp3_link" class="">
             <a :href="page.mp3_link" target="_blank" class="text-blue-800 hover:text-blue-500">
-               Download the MP3
+               Play/Download MP3
             </a>
          </div>
 
