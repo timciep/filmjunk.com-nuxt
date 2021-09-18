@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black text-white px-5 py-3 sticky top-0 z-50">
-    <div class="max-w-screen-lg mx-auto flex flex-wrap md:flex-nowrap justify-between md:justify-around items-center">
+    <div class="max-w-screen-lg mx-auto md:pr-6 flex flex-wrap md:flex-nowrap justify-between items-center">
       <NuxtLink to="/">
         <div class="text-xl font-bold uppercase">
           Film Junk

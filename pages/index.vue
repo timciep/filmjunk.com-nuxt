@@ -57,7 +57,7 @@
 <script>
 export default {
   async asyncData ({ $content, route }) {
-    let query = $content('/', { deep: true })
+    let query = $content(null, { deep: true })
       .sortBy('date', 'desc')
    
     const articles = await query.fetch()
