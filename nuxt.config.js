@@ -1,3 +1,5 @@
+import webpack from 'webpack';
+
 export default {
   publicRuntimeConfig: {
     year: new Date().getFullYear(),
@@ -80,16 +82,26 @@ export default {
   axios: {},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    fullTextSearchFields: ['title', 'description']
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        // global modules
+        // $: 'jquery',
+        _: 'lodash'
+      })
+    ]
   },
 
   fontawesome: {
     icons: {
       solid: [
-        'faBars', 'faTimes', 'faClock', 'faBackward'
+        'faBars', 'faTimes', 'faClock', 'faBackward', 'faChevronRight', 'faChevronLeft',
+        'faAngleDown', 'faLevelDownAlt'
       ],
       brands: [
         'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp'

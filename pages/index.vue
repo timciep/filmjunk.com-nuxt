@@ -43,14 +43,18 @@
                            </div>
 
                            <div class="mt-1">
-                              <div class="text-blue-fj hover:text-purple-fj">{{ article.title }}</div>
+                              <div class="text-blue-fj hover:opacity-80">{{ article.title }}</div>
                            </div>
                      </div>
                   </nuxt-link>
                </li>
             </ul>
          </div>
-   </div>
+
+         <div class="mt-6 text-center text-sm text-gray-700 mx-3 italic">
+            Visit podcast pages (in menu) for more episodes.
+         </div>
+      </div>
    </div>
 </template>
 
@@ -59,6 +63,7 @@ export default {
   async asyncData ({ $content, route }) {
     let query = $content(null, { deep: true })
       .sortBy('date', 'desc')
+      .limit(20);
    
     const articles = await query.fetch()
     return {

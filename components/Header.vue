@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white px-5 py-2 md:py-4 sticky top-0 z-50">
+  <div class="bg-black text-white px-5 py-2 md:py-4 top-0 z-50">
     <div class="max-w-screen-lg mx-auto md:pr-6 flex flex-wrap md:flex-nowrap justify-between items-center">
       <NuxtLink to="/">
         <div class="text-xl font-bold uppercase">

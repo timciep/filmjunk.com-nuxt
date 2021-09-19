@@ -378,6 +378,6 @@
 
 <style scoped>
    a {
-      @apply text-blue-800 hover:text-blue-500;
+      @apply text-blue-fj hover:opacity-80;
    }
 </style>
