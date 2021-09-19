@@ -2,7 +2,8 @@
    <div>
       <div class="mx-3 md:mx-0 flex justify-between items-center">
          <div>
-            <input id="search" v-model="q" placeholder="Search..." 
+            <input id="search" placeholder="Search..."
+            @input="evt => q = evt.target.value" :value="q"
             class="rounded p-2 bg-white border border-gray-300 max-w-sm" 
             style="max-width: 80%;" />
          </div>
