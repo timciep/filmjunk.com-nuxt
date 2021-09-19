@@ -22,15 +22,15 @@ export default {
     social_links: [
       {
         name: 'Additional Content on Patreon',
-        url: '',
+        url: 'https://www.patreon.com/filmjunk',
         icon: ['fab', 'patreon'],
       }, {
         name: 'Premium Podcasts on Bandcamp',
-        url: '',
+        url: 'https://filmjunk.bandcamp.com',
         icon: ['fab', 'bandcamp'],
       }, {
         name: 'Back Episodes on Gumroad',
-        url: '',
+        url: 'https://filmjunk.gumroad.com',
         icon: ['fas', 'clock']
       }
     ]
