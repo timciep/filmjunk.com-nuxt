@@ -16,7 +16,8 @@ export default {
       '/gamejunk-podcast': 'Game Junk',
       '/balljunk-podcast': 'Ball Junk',
       '/glossary': 'Glossary',
-      '/about': 'About'
+      '/about': 'About',
+      '/subscribe': 'Subscribe'
     },
 
     social_links: [
@@ -33,6 +34,82 @@ export default {
         url: 'https://filmjunk.gumroad.com',
         icon: ['fas', 'clock']
       }
+    ],
+
+    subscribe_links_filmjunk: [
+      {
+        name: 'RSS',
+        url: 'http://feeds.feedburner.com/filmjunk',
+        icon: ['fas', 'rss'],
+      }, {
+        name: 'Spotify',
+        url: 'https://open.spotify.com/show/7gC4H6NxbAnQLB7ahS5u2P',
+        icon: ['fab', 'spotify'],
+      }, {
+        name: 'Apple Podcasts',
+        url: 'https://podcasts.apple.com/ca/podcast/film-junk-podcast/id74257105',
+        icon: ['fab', 'apple'],
+      }, {
+        name: 'Google Podcasts',
+        url: 'https://www.google.com/podcasts?feed=aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2ZpbG1qdW5r',
+        icon: ['fab', 'google'],
+      }, {
+        name: 'Stitcher',
+        url: 'https://www.stitcher.com/podcast/film-junk-podcast',
+        icon: ['fas', 'music'],
+      }, 
+    ],
+
+    subscribe_links_gamejunk: [
+      {
+        name: 'RSS',
+        url: 'http://feeds.feedburner.com/GameJunkPodcast',
+        icon: ['fas', 'rss'],
+      }, {
+        name: 'Spotify',
+        url: 'https://open.spotify.com/show/78QyrLbDBY1oNiQzceAIwP',
+        icon: ['fab', 'spotify'],
+      }, {
+        name: 'Apple Podcasts',
+        url: 'https://podcasts.apple.com/us/podcast/game-junk-podcast/id385273911',
+        icon: ['fab', 'apple'],
+      }, {
+        name: 'Google Podcasts',
+        url: 'https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL0dhbWVKdW5rUG9kY2FzdA',
+        icon: ['fab', 'google'],
+      }, {
+        name: 'Stitcher',
+        url: 'https://www.stitcher.com/show/game-junk-podcast',
+        icon: ['fas', 'music'],
+      }, {
+        name: 'YouTube',
+        url: 'https://www.youtube.com/c/gamejunk',
+        icon: ['fab', 'youtube'],
+      }, 
+    ],
+
+    subscribe_links_balljunk: [
+      {
+        name: 'RSS',
+        url: 'http://feeds.feedburner.com/BallJunkPodcast',
+        icon: ['fas', 'rss'],
+      }, {
+        name: 'Spotify',
+        url: 'https://open.spotify.com/show/1oeuu9Naaubbag6HgbDtTH?si=zQ-FRy31S8qXIwZ89THecg&dl_branch=1',
+        icon: ['fab', 'spotify'],
+      }, {
+        name: 'Apple Podcasts',
+        url: 'https://podcasts.apple.com/us/podcast/ball-junk-podcast/id640537508',
+        icon: ['fab', 'apple'],
+      }, {
+        name: 'Google Podcasts',
+        url: 'https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL0JhbGxKdW5rUG9kY2FzdA',
+        icon: ['fab', 'google'],
+      }, {
+        name: 'Stitcher',
+        url: 'https://www.stitcher.com/show/ball-junk',
+        icon: ['fas', 'music'],
+      }, 
     ]
   },
   
@@ -108,10 +185,11 @@ export default {
     icons: {
       solid: [
         'faBars', 'faTimes', 'faClock', 'faBackward', 'faChevronRight', 'faChevronLeft',
-        'faAngleDown', 'faLevelDownAlt', 'faPlay', 'faDownload',
+        'faAngleDown', 'faLevelDownAlt', 'faPlay', 'faDownload', 'faMusic', 'faRss'
       ],
       brands: [
-        'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp', 'faYoutube'
+        'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp', 'faYoutube',
+        'faSpotify', 'faApple', 'faGoogle',
       ]
     }
   }

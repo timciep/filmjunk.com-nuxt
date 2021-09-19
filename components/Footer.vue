@@ -9,9 +9,7 @@
             <NuxtLink to="/" class="p-2">Home</NuxtLink>
 
             <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
-            class="hover:text-blue-fj p-2">
-              {{ text }}
-            </NuxtLink>
+            class="hover:text-blue-fj p-2" v-html="text" />
           </div>
         </nav>
       </div>

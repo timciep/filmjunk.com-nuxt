@@ -92,3 +92,4 @@ sw.*
 
 # Custom
 content/*
+.vscode/
