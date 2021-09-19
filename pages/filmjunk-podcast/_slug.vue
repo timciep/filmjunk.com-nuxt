@@ -12,10 +12,23 @@
 
       <div v-html="page.description" class="py-2 px-3 mt-4 md:rounded" />
 
-      <div v-if="page.mp3_link" class="mt-3 mx-3">
-         <a :href="page.mp3_link" target="_blank" class="text-blue-fj hover:opacity-80">
-            Play/Download MP3
-         </a>
+      <div v-if="page.mp3_link" class="mt-5 mx-3">
+         <div class="">
+            <audio
+               class="w-full"
+               controls
+               :src="page.mp3_link">
+                  Your browser does not support the
+                  <code>audio</code> element.
+            </audio>
+         </div>
+
+         <div class="mt-3">
+            <a :href="page.mp3_link" target="_blank" class="text-blue-fj hover:opacity-80">
+               <font-awesome-icon :icon="['fas', 'download']" />
+               Download Episode
+            </a>
+         </div>
       </div>
    </div>
 </template>

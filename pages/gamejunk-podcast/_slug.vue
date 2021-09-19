@@ -12,15 +12,29 @@
 
       <div v-html="page.description" class="py-2 px-3 mt-4 md:rounded" />
 
-      <div class="space-y-2 mt-3 mx-3">
+      <div class="space-y-3 mt-5 mx-3">
          <div v-if="page.mp3_link" class="">
-            <a :href="page.mp3_link" target="_blank" class="text-blue-fj hover:opacity-80">
-               Play/Download MP3
-            </a>
+            <div class="">
+               <audio
+                  class="w-full"
+                  controls
+                  :src="page.mp3_link">
+                     Your browser does not support the
+                     <code>audio</code> element.
+               </audio>
+            </div>
+
+            <div class="mt-3">
+               <a :href="page.mp3_link" target="_blank" class="text-blue-fj hover:opacity-80">
+                  <font-awesome-icon :icon="['fas', 'download']" />
+                  Download Episode
+               </a>
+            </div>
          </div>
 
          <div>
             <a href="http://youtube.com/c/gamejunk" class="text-blue-fj hover:opacity-80">
+               <font-awesome-icon :icon="['fab', 'youtube']" />
                Subscribe on YouTube
             </a>
          </div>

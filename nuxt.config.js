@@ -108,10 +108,10 @@ export default {
     icons: {
       solid: [
         'faBars', 'faTimes', 'faClock', 'faBackward', 'faChevronRight', 'faChevronLeft',
-        'faAngleDown', 'faLevelDownAlt', 'faPlay',
+        'faAngleDown', 'faLevelDownAlt', 'faPlay', 'faDownload',
       ],
       brands: [
-        'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp'
+        'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp', 'faYoutube'
       ]
     }
   }
