@@ -1,5 +1,5 @@
 <template>
-   <div class="max-w-screen-md md:mx-auto mx-3">
+   <div class="max-w-screen-md md:mx-auto px-3">
       <h1 class="text-xl font-bold">About Us</h1>
 
       <div class="mt-3 space-y-2">

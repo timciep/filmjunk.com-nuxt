@@ -20,7 +20,7 @@
       >
         <div class="">
           <nav>
-            <div class="flex flex-col md:flex-row gap-6 md:gap-8 justify-center">
+            <div class="flex flex-col md:flex-row gap-6 md:gap-8 justify-center text-center">
               <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
               class="hover:text-blue-fj" v-html="text" />
             </div>

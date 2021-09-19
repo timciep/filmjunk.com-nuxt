@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'blue-fj': '#006677',
-        'purple-fj': '#46457b'
+        'purple-fj': '#46457b',
+
+        'blue-gj': '#253cc7',
+
+        'brown-bj': '#661f15',
       },
 
       borderWidth: {

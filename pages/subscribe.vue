@@ -7,10 +7,11 @@
             <h2 class="text-center text-lg font-bold" v-html="name" />
 
             <div>
-               <div v-for="link, idx in links" :key="idx"
+               <div v-for="link, idx in links.links" :key="idx"
                class="">
                   <a :href="link.url">
-                     <div class="rounded-full py-2 px-4 bg-blue-fj text-white text-center hover:opacity-80 mt-2">
+                     <div class="rounded-full py-2 px-4 text-white text-center hover:opacity-80 mt-2"
+                     :class="'bg-' + links.color">
                         <font-awesome-icon :icon="[link.icon[0], link.icon[1]]" />
                         {{ link.name }}
                      </div>
@@ -27,9 +28,18 @@ export default {
    data() {
       return {
          link_groups: {
-            'Film Junk': this.$config.subscribe_links_filmjunk,
-            'Game Junk': this.$config.subscribe_links_gamejunk,
-            'Ball Junk': this.$config.subscribe_links_balljunk,
+            'Film Junk': {
+               links: this.$config.subscribe_links_filmjunk,
+               color: 'blue-fj',
+            },
+            'Game Junk': {
+               links: this.$config.subscribe_links_gamejunk,
+               color: 'blue-gj'
+            },
+            'Ball Junk': {
+               links: this.$config.subscribe_links_balljunk,
+               color: 'brown-bj'
+            }
          }
       }
    },
