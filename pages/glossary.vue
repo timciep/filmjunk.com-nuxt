@@ -1,15 +1,15 @@
 <template>
-   <div class="max-w-screen-md md:mx-auto mx-3 space-y-3">
+   <div class="max-w-screen-md md:mx-auto mx-3">
       <h1 class="text-xl font-bold">Film Junk Glossary</h1>
 
-      <div class="mt-3 mb-2">
+      <div class="mt-3 mb-6">
          The following is a guide to the many colourful terms, phrases and inside jokes that often turn up on the Film Junk Podcast. The goal is to help new listeners become acquainted with the show’s vast history and unique mythology. If you have any other suggestions for new entries, please send them to
          <a href="mailto:filmjunk@gmail.com">filmjunk@gmail.com</a>.
       </div>
 
       <p><strong>3Don&#8217;t</strong> &#8211; A potential movement proposed by Dax to avoid 3D movies wherever possible due to dark and blurry visuals and a disappointing overall moviegoing experience.</p>
       <p><strong>4KY (Jelly)</strong> &#8211; A term referring to the phenomenon where one&#8217;s opinion of a movie can be elevated or a particularly bad movie can be made more bearable by watching it in 4K resolution. Also known as the 4K Bump.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/jz2km2ns" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/jz2km2ns" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>6 Star Rating</strong> &#8211; A concept introduced by Jay on <a href="http://filmjunk.com/2015/05/05/film-junk-podcast-episode-513-the-avengers-age-of-ultron/">Episode #513: The Avengers: Age of Ultron</a> that would allow each Film Junk host to pick two movies a year that will be awarded a special 6 star rating (out of 5 stars) because they are essentially better than perfect. This rating must be awarded upon initial review and cannot be upgraded after the fact.</p>
       <p><strong>7Up Retro</strong> &#8211; A soft drink often referenced on the show due to its memorable use on an episode of Celebrity Apprentice. Celebrities were required to write a jingle for the product, which is the origin of the sound clip of Dee Snider singing &#8220;7Up Retro&#8230; keepin&#8217; it real!&#8221;.</p>
       <p><strong>700 Club</strong> &#8211; People who donated during the Episode 700 live telethon are referred to as members of the Film Junk 700 Club. This is a reference to the long-running Christian talk show / TV news program of the same name.</p>
@@ -22,11 +22,11 @@
       <p><strong>Anal Cancer</strong> &#8211; In the early days of Film Junk, Jay had a health scare where he suspected he might have anal cancer. On <a href="http://filmjunk.com/2007/09/30/download-film-junk-podcast-for-sept-30-2007/">Episode #137</a>, he recounted in gruesome detail all of the various medical procedures he underwent in order to get checked out.</p>
       <p><strong>Andrew</strong> &#8211; See Huckcity or Andrew James.</p>
       <p><strong>Angular Stool</strong> &#8211; A descriptor Jay used to explain the shape of his bowel movements during his anal cancer scare. Also, an item available at your local Ikea.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/dcs0zowr" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/dcs0zowr" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Apwill Dafoeth</strong> &#8211; Fictional holiday proposed by Frank to celebrate actor Willem Dafoe on April the 4th, poking fun at themed days like Alien Day, Star Wars Day and Back to the Future Day.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/mxyp5smg" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/mxyp5smg" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Archbishop of Animation</strong> &#8211; Listener-elected nickname for Dax due to the fact that he is an animator and loves animated movies.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/ntdeb41t" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/ntdeb41t" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Assembling a BBQ</strong> &#8211; A euphemism for potential distractions when watching movies at home without giving them your full attention. First mentioned during Frank&#8217;s questionable rewatch of Minority Report on <a href="http://filmjunk.com/2013/06/25/film-junk-podcast-episode-423-world-war-z-and-monsters-university/">Episode #423: World War Z and Monsters University</a>.</p>
       <p><strong>Baby Blu</strong> &#8211; Term of endearment for a blu-ray.</p>
       <p><strong>Bald Brotherhood</strong> &#8211; An unspoken bond between men without hair, which sometimes leads Frank and Sean to give bald actors or directors the benefit of the doubt. The phrase was coined by Larry David in an episode of Curb Your Enthusiasm.</p>
@@ -59,28 +59,28 @@
       <p><strong>Chian</strong> &#8211; Longtime friend of Sean and Jay and original co-host of the podcast in its initial incarnation as Space Junk. Known for his blunt, often profane responses and love of video games. He was a regular co-host of Space Junk Radio / Film Junk Podcast up until episode #76.</p>
       <p><strong>Child Art</strong> &#8211; Refers to the controversial photographs found in Paul Reubens&#8217; home that were originally considered child pornography but defended as being part of his &#8220;extensive historical art photography collection.&#8221;</p>
       <p><strong>China &amp; Silk</strong> &#8211; A 1984 erotic action thriller that borders on softcore pornography. Owned by and often referenced by Jay. (see also: Vinegar Syndrome)</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/zdapyo2l" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/zdapyo2l" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Chirp &#8211; </strong>Canadian slang for trash talking, probably originating from hockey.</p>
       <p><strong>Classitosis</strong> &#8211; An affliction that causes you to give classic films higher ratings than they probably deserve. Originally debuted on <a href="https://filmjunk.com/2014/09/30/film-junk-podcast-episode-484-the-equalizer/">Episode #484: The Equalizer</a>. Sean was accused of having Classitosis on <a href="http://filmjunk.com/2015/05/11/film-junk-podcast-episode-514-maggie/">Episode #514: Maggie</a>. (See also: Criterionitis) (See also: Nostalgiarrhea)</p>
       <p><strong>CLIDVIC</strong> &#8211; Awkward term coined by Roger Ebert referring to movies that follow the Rocky formula. Stands for Climb from Despair to Victory. First referenced by Frank on <a href="https://filmjunk.com/2020/11/18/film-junk-podcast-episode-774-best-of-the-best-holidate/">Episode #774: Best of the Best + Holidate</a>.</p>
       <p><strong>The Cloon / Cloontang</strong> &#8211; Cool nicknames for George Clooney.</p>
       <p><strong>Cloud Laser</strong> &#8211; Intentionally flubbed name of a type of pre-amp often used to boost gain on Shure SM7B mics. The real name is Cloudlifter, although the Film Junk crew actually uses the Triton Fethead instead.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/fnak5qvo" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/fnak5qvo" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Coffee Gate</strong> &#8211; An incident that occurred on <a href="http://filmjunk.com/2014/05/20/film-junk-podcast-episode-466-godzilla/">Episode #466: Godzilla</a> where Frank accidentally spilled some coffee on a Blu-ray that he was returning to Jay and was subsequently reprimanded for it.</p>
       <p><strong>Colin Nun</strong> &#8211; Artist, graphic designer and long-time friend of Frank&#8217;s who designed the Film Junk 700 Club pins. Colin has appeared on <a href="https://filmjunk.com/2019/06/26/film-junk-podcast-episode-712-toy-story-4/">Episode #712: Toy Story 4</a> and <a href="https://filmjunk.com/2019/10/09/film-junk-podcast-episode-725-joker/">Episode #725: Joker</a>.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/25j1vh3s" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/25j1vh3s" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Comedy Scale</strong> &#8211; A method of rating a comedy film devised by Frank where each attempted joke is assigned a positive or negative score, resulting in a running total that indicates the film&#8217;s overall effectiveness. Viewed under this method, a bad joke is worse than no joke at all. Originated in <a href="http://filmjunk.com/2012/09/11/film-junk-podcast-episode-385-vhs-and-side-by-side/">Episode #385: VHS + Side By Side</a>.</p>
       <p><strong>Cooking with Gerry</strong> &#8211; A tongue-in-cheek video podcast hosted by Reed Farrington where he gives instructions for preparing mundane and unappealing meals. Inspired by an old video he self-produced with a VHS camcorder in the &#8217;90s. The original video is available on <a href="https://www.youtube.com/watch?v=Oj9-rS06oVk">YouTube</a> and episode #2 is available <a href="http://filmjunk.com/2010/06/14/cooking-with-gerry-episode-2-poutine/">here</a>.</p>
       <p><strong>Corey</strong> &#8211; See Goon.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/j0reglhx" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/j0reglhx" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Costco Dog</strong> &#8211; According to Frank, the most delicious hot dogs on the planet can be purchased at Costco.</p>
       <p><strong>Manny Coto</strong> &#8211; Director of the cult horror film Dr. Giggles who has gone on to become a TV producer. Often brought up by Greg in a sense of ironic appreciation for his work.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/nru1a2pt" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/nru1a2pt" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Court of Public Opinion (COPO)</strong> &#8211; When a particular opinion (usually a negative one) about a celebrity or public figure takes hold in the general public as a result of the viral nature of social media, sometimes without solid evidence to back it up. Frank has often railed against the Court of Public Opinion, calling for people to make up their own mind about such matters.</p>
       <p><strong>Crameo</strong> &#8211; When a Hollywood blockbuster franchise attempts to cram in brief, mostly useless appearance from a supporting character as a way of setting up future installments.</p>
       <p><strong>Cream Dream Supreme</strong> &#8211; A movie or news headline that gets Frank particularly excited.</p>
       <p><strong>Creep Catchers</strong> &#8211; Group of amateur vigilantes who attempt to confront and expose sexual predators by posing as underage victims online, not unlike Dateline NBC&#8217;s To Catch a Predator.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/2hotik20" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/2hotik20" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Criterionitis</strong> &#8211; A term coined by Frank on <a href="https://filmjunk.com/2014/09/23/film-junk-podcast-episode-483-the-drop/">Episode #483: The Drop</a> that refers to slightly inflated review scores for films that are released via the Criterion Collection. Also jokingly used in reference to the disc rot problem found on select Criterion Blu-rays. (See also: Classitosis) (See also: Nostalgiarrhea)</p>
       <p><strong>Critical Wave &#8211; </strong>See: Riding the Critical Wave</p>
       <p><strong>Cursed Films</strong> &#8211; Jay&#8217;s Shudder documentary series exploring various horror movies that are believed to have been cursed. Sometimes referred to as simply &#8220;Cursed&#8221; since that was the original working title.</p>
@@ -91,7 +91,7 @@
       <p><strong>Dead Set on Life</strong> &#8211; Canadian cooking / travel show on Viceland hosted by Toronto chef Matty Matheson that Jay worked as a director and producer on.</p>
       <p><strong>The Deakmeister (General)</strong> &#8211; Cinematographer Roger Deakins, best known for his collaborations with The Coen Brothers and, more recently, Denis Villeneuve.</p>
       <p><strong>The Deaner</strong> &#8211; Cinematographer Dean Cundey, best known for his collaborations with John Carpenter, Steven Spielberg and Robert Zemeckis.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/5j4ytkna" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/5j4ytkna" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Definitely a Buy</strong> &#8211; A phrase indicating that a particular product (usually a Blu-ray) is essential and worth purchasing. Originally a catch phrase used by The Food Reviewer, a kid who samples and rates various snack foods on YouTube.</p>
       <p><strong>Demo Disc</strong> &#8211; A Blu-ray that is purchased mainly with the intention of being used to showcase your home theatre video and sound capabilities and to impress your friends and family.</p>
       <p><strong>Deppilepsy</strong> &#8211; The scientific term for Frank&#8217;s love of Johnny Depp and willingness to automatically love any movie he is in. First mentioned on <a href="http://filmjunk.com/2016/02/09/film-junk-podcast-episode-551-hail-caesar/">Episode #551: Hail Caesar!</a>. (See also: TimBurculosis)</p>
@@ -108,15 +108,15 @@
       <p><strong>Double Double</strong> &#8211; A Canadian phrase used when ordering a coffee at Tim Horton&#8217;s with two creams and two sugars.</p>
       <p><strong>Double Parm</strong> &#8211; A food-related joke from Paul Blart: Mall Cop 2 that Frank is particularly fond of.</p>
       <p><strong>DP</strong> &#8211; Director of Photography or Double Penetration.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/e3k03s1c" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/e3k03s1c" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Drama for Drama&#8217;s Sake</strong> &#8211; A vague criticism that Frank often applies to movies where dramatic tension and conflict feel contrived or unrealistic.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/isjr0msw" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/isjr0msw" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Dredd Head</strong> &#8211; A hardcore fan of Judge Dredd. (see also: Pred Head)</p>
       <p><strong>Drive-In</strong> &#8211; Preferred venue for summer movie viewing, in particular bad movies. For example, the phrase &#8220;I can&#8217;t wait to see that at the drive-in&#8221; indicates that the movie will be bad, but enjoyable in that specific setting. Our local drive-in is the Canview Drive-In in Thorold. (see also: Twisted)</p>
       <p><strong>Dropping Lid</strong> &#8211; Nodding off during a boring movie.</p>
       <p><strong>Dropping Tear</strong> &#8211; Getting misty-eyed or just outright crying during a particularly emotional scene in a movie.</p>
       <p><strong>Dropping Tier</strong> &#8211; Becoming a supporter of Film Junk on Patreon.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/mscgxm3n" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/mscgxm3n" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Drunk John Lasseter</strong> &#8211; A <a href="https://www.youtube.com/watch?v=hwEkzi2IiF0" target="_blank">YouTube video</a> put together by Jay that was inspired by the popular Drunk Jeff Goldblum videos.</p>
       <p><strong>Drunk Uncles</strong> &#8211; A nickname for Dax and Greg when they appear on episodes together, usually for comic book movie reviews.</p>
       <p><strong>Duke of Spook</strong> &#8211; Listener-elected nickname for Jay that refers to his love of horror films as a counterpoint to Frank&#8217;s love of comedy.</p>
@@ -125,13 +125,13 @@
       <p><strong>Durst Burp</strong> &#8211; A tell-tale sign or subtle admission of guilt. A reference to the shocking finale of the HBO documentary series <em>The Jinx</em>.</p>
       <p><strong>Dwane</strong> &#8211; Friend of the show who frequently attends the drive-in and board game nights.</p>
       <p><strong>Dwybecast</strong> &#8211; An episode of the podcast where a primary member is absent but Sean is still present. Typically this line-up has featured Sean, Frank and Dax. (See also: Vibecast)</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/tjhtne4k" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/tjhtne4k" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Easy Win</strong> &#8211; A great premise, idea or promising combination of behind-the-scenes talent that should automatically result in a great movie.</p>
       <p><strong>Eddie / Eddy / Edd-uh-ee</strong> &#8211; Nickname for Frank&#8217;s alter ego when he goes off on an angry rant. The name is derived from a sound clip of Frank stumbling over words that Jay sometimes plays.</p>
       <p><strong>Editorializing</strong> &#8211; Used to describe Sean&#8217;s habit of reporting on rumours or partially subjective information as if they are fact.</p>
       <p><strong>Efronaissance</strong> &#8211; The redemption of Zac Efron, formerly known for The Disney Channel&#8217;s <em>High School Musical</em>, who has since become known for raunchy R-rated comedies. The term was coined by Zak on <a href="https://filmjunk.com/2016/07/12/film-junk-podcast-episode-573-the-neon-demon/">Episode #573: The Neon Demon</a>.</p>
       <p><strong>Embers of Mirrim</strong> &#8211; Independently-released video game that Frank acted as lead designer on, now available on Steam, PS4 and Xbox One.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/3b1bpfyj" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/3b1bpfyj" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Facehuggers</strong> &#8211; The second phase of the Xenomorph&#8217;s life cycle in the Alien movies. Also, now a slang term for breasts.</p>
       <p><strong>Fan Man</strong> &#8211; A person who is overly enthusiastic about something (ie. movies, pop culture, etc.), but is able to maintain his fandom in a dignified way. After being called a fanboy by Jay, Frank clarified that he is a &#8220;Fan Man&#8221; instead. This has also led to a recurring sound bite on the show that is a quote from The Devil&#8217;s Advocate where Al Pacino says he is a &#8220;fan of man&#8221;.</p>
       <p><strong>Famous Bet</strong> &#8211; There have been many memorable wagers between Film Junk members throughout the years, most of which involve Frank in some way. Some of the more notable ones include the Robocop bet (whether the costume for the Robocop remake would have CG elements or be completely practical), the Birdman bet (whether the opening quote in Birdman misspells the word &#8220;Beloved&#8221;), the Star Wars: The Force Awakens bet (whether Han Solo would die in the movie) and the Krampus bet (over the proper pronunciation of Krampus).</p>
@@ -159,16 +159,16 @@
       <p><strong>The Gasman</strong> &#8211; Greg&#8217;s on-air handle when he worked at the radio station 97.7 Htz fm in St. Catharines. It is a play on his last name, Gaspari.</p>
       <p><strong>The Gift</strong> &#8211; Frank&#8217;s self-professed ability to predict the endings of movies. It has also ruined his enjoyment of certain movies, causing him to refer to it as a curse as well.</p>
       <p><strong>Greg Gaspari</strong> &#8211; Long-time co-host of the Film Junk Podcast between 2007 and 2013. He appeared on the majority of episodes from Episode #96 through to #411 and now hosts the Ball Junk Podcast with Frank (more info on his departure <a href="http://filmjunk.com/2013/04/08/so-long-and-thanks-for-all-the-pineapple-soda/">here</a>). (See also: The Gasman)</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/f3nsyydk" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/f3nsyydk" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>General Theory of Collectibility</strong> &#8211; A term that applies to a Blu-ray collector who values quantity over quality in their collection. (See also: Juicing) (See also: Special Theory of Collectibility) » <a href="https://clyp.it/f3nsyydk" target="_blank">Audio Clip</a></p>
       <p><strong>Genre Film</strong> &#8211; A movie that follows an established formula or set of conventions. Commonly used as a synonym for horror movie or b-movie although the term expands beyond that.</p>
       <p><strong>Gerry</strong> &#8211; See Reed Farrington.</p>
       <p><strong>Ghost</strong> &#8211; Swedish metal band known for their theatrical stage show that makes use of mock satanic imagery. Jay often ribs Frank over his love of the band.</p>
       <p><strong>The Goblin Man of Norway</strong> &#8211; Three-part faux documentary directed by Jay to promote the video game Too Human while he worked at Silicon Knights. (see also: Silicon Knights)</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/rgr3t2is" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/rgr3t2is" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Going Clear</strong> &#8211; The act of retrofitting an entire Blu-ray collection with clear cases (also a play on the Scientology term and documentary of the same name). First proposed by Jay on <a href="https://filmjunk.com/2016/12/14/film-junk-bonus-podcast-movie-organization-manifesto-part-5/">Part 5 of the Movie Organization Manifesto</a>.</p>
       <p><strong>Golden Corral</strong> &#8211; A U.S. restaurant chain with a large buffet that Jay is obsessed with.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/ozy0o24p" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/ozy0o24p" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Gooby</strong> &#8211; A 2009 Canadian children&#8217;s film about a little boy and his imaginary friend, a terrifying-looking giant teddy bear. Partially watched on TV by Sean late one night while sick with a fever, thus scarring him for life. First mentioned on <a href="http://http://filmjunk.com/2012/12/04/film-junk-podcast-episode-396-killing-them-softly/">Episode #396: Killing Them Softly</a> and then later revisited on <a href="http://filmjunk.com/2015/02/04/film-junk-podcast-episode-501-a-most-violent-year/">Episode #501: A Most Violent Year</a>.</p>
       <p><strong>Goon</strong> &#8211; Short for Pretentious Goon, the internet handle of Corey Pierce, an illustrator, high school friend of Jay and Chian, long-time contributor to the site and occasional guest on the podcast. Corey also designed the hot dog, poutine, popcorn and pop logo that we used on the podcast for quite a while.</p>
       <p><strong>Dax Gordine</strong> &#8211; An artist and animator who used to work with Sean, Jay and Frank at Silicon Knights. He has been a frequent guest on the podcast, especially when Sean is absent. (See also: Vibecast)</p>
@@ -187,10 +187,10 @@
       <p><strong>High Density</strong> &#8211; What HD stands for, according to Jay.</p>
       <p><strong>Hollyweird</strong> &#8211; Goofy term for Hollywood based on its reputation for being strange, surreal and insular. Often used ironically by the Film Junk crew.</p>
       <p><strong>Hollyvitz</strong> &#8211; Goofy and not so politically correct term for Hollywood based on its reputation for being run by a lot of Jewish folks. Also sometimes used ironically by the Film Junk crew.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/f25bory0" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/f25bory0" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Horror Renaissance</strong> &#8211; An on-going argument about about whether there is a current surge of innovative and inventive new horror films currently being produced over the past few years. Frank strongly disagreed with the idea on <a href="http://filmjunk.com/2015/06/30/film-junk-podcast-episode-521-burying-the-ex/">Episode #521: Burying the Ex</a>.</p>
       <p><strong>Hot Docs</strong> &#8211; Annual documentary film festival in Toronto.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/ohfe1eio" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/ohfe1eio" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Hoverboard</strong> &#8211; A fictional prop in Back to the Future II. A real-life prototype was rumoured to have been made back in the &#8217;80s but that was proven to be a hoax. Frank believed it was real until <a href="http://filmjunk.com/2011/06/07/film-junk-podcast-episode-321-x-men-first-class/">Episode #321: X-Men First Class</a>.</p>
       <p><strong>How to Build a Time Machine</strong> &#8211; Jay&#8217;s second feature-length documentary. Part of the film&#8217;s budget was raised through the Hot Docs DocIgnite crowdsourcing campaign.</p>
       <p><strong>Ron Howard</strong> &#8211; Director of such films as Parenthood, Backdraft and A Beautiful Mind. Frequently scorned by Jay for being a jobber and/or purveyor of Oscar bait. (See also: Jobber, Oscar Bait)</p>
@@ -322,7 +322,7 @@
       <p><strong>S.O.S. Fantomes</strong> &#8211; The French title of Ghostbusters, singled out as an example of ugly French translations often found on Canadian DVD and Blu-ray releases. Originated in <a href="http://filmjunk.com/2009/06/23/film-junk-podcast-episode-223-year-one/">Episode #223: Year One</a>.</p>
       <p><strong>Soundboard</strong> &#8211; After episode 700, the Film Junk crew upgraded to a Rodecaster Pro mixing board with a built-in soundboard allowing for the live playback of short sound clips and music. This has helped to usher in a whole new era for anti-entertainment for the podcast.</p>
       <p><strong>Space Junk</strong> &#8211; Original name of the website and podcast when it launched in the early 2000s and covered music and video games in addition to film. Now occasionally used as a moniker for our entire Junk-related podcast network.</p>
-      <div class="regularbuttondark floatright"><a href="https://clyp.it/f3nsyydk" target="_blank"> Listen </a></div>
+      <div class="regularbuttondark floatright"><a href="https://clyp.it/f3nsyydk" target="_blank"> <font-awesome-icon :icon="['fas', 'play']" /> Listen </a></div>
       <p><strong>Special Theory of Collectibility</strong> &#8211; A term that applies to a Blu-ray collector who values quality over quantity in their collection. (See also: General Theory of Collectibility)</p>
       <p><strong>Spoonerism</strong> &#8211; Play on words in which the first letters of two words are switched around. Jay is known for doing this quite frequently, often by accident.</p>
       <p><strong>Sport Goth</strong> &#8211; Also known as Health Goth. A subculture / fashion trend involving jocks who wear all black sports apparel. Frank is sometimes referred to as a Sport Goth because he often wears sports gear but is also a fan of Marilyn Manson.</p>
@@ -379,5 +379,17 @@
 <style scoped>
    a {
       @apply text-blue-fj hover:opacity-80;
+   }
+
+   p {
+      @apply mb-6;
+   }
+
+   .floatright {
+      @apply float-right ml-5 mb-1;
+   }
+
+   .regularbuttondark {
+      @apply py-1 px-2 rounded-full border border-blue-fj;
    }
 </style>
