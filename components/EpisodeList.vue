@@ -23,7 +23,7 @@
                         <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
                      </div>
 
-                     <div class="text-sm mt-1" v-html="highlight(article.description.substring(0, 150)) + '...'" />
+                     <div class="text-sm mt-1" v-html="highlight(article.description)" />
                   </div>
                </nuxt-link>
             </li>
