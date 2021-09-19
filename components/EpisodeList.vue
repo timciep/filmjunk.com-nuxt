@@ -13,14 +13,14 @@
          </div>
       </div>
 
-      <div class="mt-3">
-         <ul class="space-y-3">
+      <div class="mt-4">
+         <ul class="space-y-4">
             <li v-for="article, idx in articles" :key="idx">
                <nuxt-link :to="article.path">
-                  <div class="bg-white shadow md:rounded py-2 px-3">
+                  <div class="bg-white shadow md:rounded p-3">
                      <div class="flex items-beginning justify-between gap-3">
-                     <div class="text-blue-fj hover:opacity-80" v-html="highlight(article.title)" />
-                     <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
+                        <div class="text-blue-fj hover:opacity-80" v-html="highlight(article.title)" />
+                        <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
                      </div>
 
                      <div class="text-sm mt-1" v-html="highlight(article.description.substring(0, 150)) + '...'" />
