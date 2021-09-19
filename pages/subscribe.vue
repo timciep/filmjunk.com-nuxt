@@ -11,7 +11,7 @@
                class="">
                   <a :href="link.url">
                      <div class="rounded-full py-2 px-4 text-white text-center hover:opacity-80 mt-2"
-                     :class="'bg-' + links.color">
+                     :class="links.bg">
                         <font-awesome-icon :icon="[link.icon[0], link.icon[1]]" />
                         {{ link.name }}
                      </div>
@@ -30,15 +30,15 @@ export default {
          link_groups: {
             'Film Junk': {
                links: this.$config.subscribe_links_filmjunk,
-               color: 'blue-fj',
+               bg: 'bg-blue-fj',
             },
             'Game Junk': {
                links: this.$config.subscribe_links_gamejunk,
-               color: 'blue-gj'
+               bg: 'bg-blue-gj'
             },
             'Ball Junk': {
                links: this.$config.subscribe_links_balljunk,
-               color: 'brown-bj'
+               bg: 'bg-brown-bj'
             }
          }
       }
