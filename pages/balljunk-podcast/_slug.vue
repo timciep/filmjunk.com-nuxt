@@ -18,12 +18,6 @@
                Play/Download MP3
             </a>
          </div>
-
-         <div>
-            <a href="http://youtube.com/c/balljunk" class="text-blue-fj hover:opacity-80">
-               Subscribe on YouTube
-            </a>
-         </div>
       </div>
    </div>
 </template>
