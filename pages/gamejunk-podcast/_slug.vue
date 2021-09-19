@@ -1,6 +1,6 @@
 <template>
    <div class="max-w-screen-md mx-auto">
-      <div class="mx-2">
+      <div class="mx-3">
          <NuxtLink to="/gamejunk-podcast" class="text-blue-fj hover:opacity-80 text-sm">
             Game Junk Podcast
          </NuxtLink>
@@ -12,7 +12,7 @@
 
       <div v-html="page.description" class="py-2 px-3 mt-4 md:rounded" />
 
-      <div class="space-y-2 mt-3 mx-2">
+      <div class="space-y-2 mt-3 mx-3">
          <div v-if="page.mp3_link" class="">
             <a :href="page.mp3_link" target="_blank" class="text-blue-fj hover:opacity-80">
                Play/Download MP3

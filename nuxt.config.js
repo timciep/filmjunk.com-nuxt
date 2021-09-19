@@ -1,6 +1,13 @@
 import webpack from 'webpack';
 
 export default {
+  vue: {
+    config: {
+      productionTip: true,
+      devtools: true
+    }
+  },
+  
   publicRuntimeConfig: {
     year: new Date().getFullYear(),
 

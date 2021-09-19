@@ -1,32 +1,43 @@
 <template>
    <div>
-      <div class="">
-         <input id="search" v-model="q" placeholder="Search..." 
-         class="rounded p-2 bg-white border border-gray-300" />
+      <div class="mx-3 md:mx-0 flex justify-between items-center">
+         <div>
+            <input id="search" v-model="q" placeholder="Search..." 
+            class="rounded p-2 bg-white border border-gray-300 max-w-sm" 
+            style="max-width: 80%;" />
+         </div>
+
+         <div class="text-sm text-gray-700">
+            Page {{ p }}
+         </div>
       </div>
 
       <div class="mt-3">
          <ul class="space-y-3">
             <li v-for="article, idx in articles" :key="idx">
-            <nuxt-link :to="article.path">
-               <div class="bg-white shadow md:rounded py-2 px-3">
-                  <div class="flex items-beginning justify-between gap-3">
-                  <div class="text-blue-fj hover:opacity-80" v-html="highlight(article.title)" />
-                  <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
-                  </div>
+               <nuxt-link :to="article.path">
+                  <div class="bg-white shadow md:rounded py-2 px-3">
+                     <div class="flex items-beginning justify-between gap-3">
+                     <div class="text-blue-fj hover:opacity-80" v-html="highlight(article.title)" />
+                     <div class="text-xs text-gray-800">{{ new Date(article.date).toLocaleDateString() }}</div>
+                     </div>
 
-                  <div class="text-sm mt-1" v-html="highlight(article.description.substring(0, 150)) + '...'" />
-               </div>
-            </nuxt-link>
+                     <div class="text-sm mt-1" v-html="highlight(article.description.substring(0, 150)) + '...'" />
+                  </div>
+               </nuxt-link>
             </li>
          </ul>
       </div>
 
-      <div class="mt-5 flex justify-between mx-3 text-blue-fj">
+      <div class="mt-5 flex justify-between mx-3 text-blue-fj items-center">
          <button @click="prev()" :class="p > 1 ? '' : 'invisible'">
             <font-awesome-icon :icon="['fas', 'chevron-left']" />
             Prev
          </button>
+
+         <div class="text-sm text-gray-700">
+            Page {{ p }}
+         </div>
 
          <button @click="next()" :class="hasNext ? '' : 'invisible'">
             Next
@@ -76,7 +87,7 @@ export default {
    methods: {
       async refreshData() {
           let query = this.$content(this.content)
-            .only(['title', 'description', 'date'])
+            .only(['title', 'description', 'date', 'path'])
             .limit(PER_PAGE)
             .skip((this.p - 1) * (PER_PAGE - 1));
 

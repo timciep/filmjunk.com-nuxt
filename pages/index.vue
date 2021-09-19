@@ -21,7 +21,7 @@
       </div>
 
       <div class="max-w-prose mx-auto mt-6">
-         <h2 class="font-bold text-xl mx-2 md:mx-0">Latest Episodes</h2>
+         <h2 class="font-bold text-xl mx-3 md:mx-0">Latest Episodes</h2>
 
          <div class="mt-3">
             <ul class="space-y-3">
@@ -63,6 +63,7 @@ export default {
   async asyncData ({ $content, route }) {
     let query = $content(null, { deep: true })
       .sortBy('date', 'desc')
+      .only(['title', 'description', 'date', 'path', 'type', 'dir'])
       .limit(20);
    
     const articles = await query.fetch()

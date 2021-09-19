@@ -1,11 +1,11 @@
 <template>
   <div class="max-w-prose mx-auto">
-      <div class="mx-2 md:mx-0">
+      <div class="mx-3">
           <h1 class="font-bold text-xl">Film Junk Podcast Episodes</h1>
+      </div>
 
-          <div class="mt-3">
-            <EpisodeList content="filmjunk-podcast" />
-          </div>
+      <div class="mt-3 md:mx-3">
+        <EpisodeList content="filmjunk-podcast" />
       </div>
   </div>
 </template>
