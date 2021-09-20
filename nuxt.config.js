@@ -12,12 +12,17 @@ export default {
     year: new Date().getFullYear(),
 
     links: {
-      '/filmjunk-podcast': 'Podcast',
-      '/gamejunk-podcast': 'Game Junk',
-      '/balljunk-podcast': 'Ball Junk',
+      
+      '/subscribe': 'Subscribe',
+      '/follow': 'Follow',
       '/glossary': 'Glossary',
       '/about': 'About',
-      '/subscribe': 'Subscribe'
+    },
+
+    podcast_links: {
+      '/filmjunk-podcast': 'Film Junk',
+      '/gamejunk-podcast': 'Game Junk',
+      '/balljunk-podcast': 'Ball Junk',
     },
 
     social_links: [
@@ -110,7 +115,63 @@ export default {
         url: 'https://www.stitcher.com/show/ball-junk',
         icon: ['fas', 'music'],
       }, 
-    ]
+    ],
+
+    social_links_filmjunk: [
+      {
+        name: 'Twitter',
+        url: 'https://twitter.com/filmjunk',
+        icon: ['fab', 'twitter'],
+      }, {
+        name: 'Instagram',
+        url: 'https://instagram.com/filmjunkpodcast',
+        icon: ['fab', 'instagram'],
+      }, {
+        name: 'Reddit',
+        url: 'https://reddit.com/r/filmjunk',
+        icon: ['fab', 'reddit'],
+      }, {
+        name: 'Discord',
+        url: 'https://discord.gg/HBKVk6z',
+        icon: ['fab', 'discord'],
+      }, {
+        name: 'Bandcamp',
+        url: 'https://filmjunk.bandcamp.com',
+        icon: ['fab', 'bandcamp'],
+      }, {
+        name: 'Patreon',
+        url: 'https://www.patreon.com/filmjunk',
+        icon: ['fab', 'patreon'],
+      }
+    ],
+
+    social_links_gamejunk: [
+      {
+        name: 'Twitter',
+        url: 'https://twitter.com/gamejunkpodcast',
+        icon: ['fab', 'twitter'],
+      }, {
+        name: 'YouTube',
+        url: 'https://www.youtube.com/c/gamejunk',
+        icon: ['fab', 'youtube'],
+      }, {
+        name: 'Discord',
+        url: 'https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjQ1SmN5ZWFwY040TmU3U054YlpvT19GU2tyd3xBQ3Jtc0ttUnBfOTFoWHkxeVNfaG8tSFVDcDhGeXJKcUFFaXhLUXpoa19zNnRTSTVMMEF6TV9GVk9XTUtLWHBTczdremV2QTN2TkhBQV81NlNhaE55TjVCN0cxS29XQnQwbXZ3OW9SOTdwZXRONUx0NFFFdlAzQQ&q=https%3A%2F%2Fdiscord.gg%2Fx8PU2Gk',
+        icon: ['fab', 'discord'],
+      }, 
+    ],
+
+    social_links_balljunk: [
+      {
+        name: 'Twitter',
+        url: 'https://twitter.com/balljunkpodcast',
+        icon: ['fab', 'twitter'],
+      }, {
+        name: 'Instagram',
+        url: 'https://www.instagram.com/balljunkpodcast',
+        icon: ['fab', 'instagram'],
+      }
+    ],
   },
   
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -189,7 +250,7 @@ export default {
       ],
       brands: [
         'faTwitter', 'faDiscord', 'faPatreon', 'faBandcamp', 'faYoutube',
-        'faSpotify', 'faApple', 'faGoogle',
+        'faSpotify', 'faApple', 'faGoogle', 'faReddit', 'faInstagram',
       ]
     }
   }

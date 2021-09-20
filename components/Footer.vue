@@ -5,11 +5,20 @@
     >
       <div class="">
         <nav>
-          <div class="flex flex-col md:flex-row gap-2 md:gap-4 justify-center">
-            <NuxtLink to="/" class="p-2">Home</NuxtLink>
+          <div class="flex gap-5 justify-evenly">
+            <div class="flex flex-col gap-2 md:gap-4 justify-evenly">
+              <NuxtLink to="/" class="p-2 hover:text-blue-200">Home</NuxtLink>
 
-            <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
-            class="hover:text-blue-fj p-2" v-html="text" />
+              <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
+              class="hover:text-blue-200 p-2" v-html="text" />
+            </div>
+
+            <div class="flex flex-col gap-2 md:gap-4 justify-center">
+              <div class="italic p-2">Episodes:</div>
+
+              <NuxtLink v-for="text, link in $config.podcast_links" :key="link" :to="link" @click.native="show = false"
+              class="hover:text-blue-200 p-2" v-html="text" />
+            </div>
           </div>
         </nav>
       </div>
