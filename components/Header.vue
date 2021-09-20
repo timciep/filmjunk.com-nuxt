@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black text-white px-5 py-2 md:py-4 top-0 z-50">
     <div class="max-w-screen-lg mx-auto md:pr-6 flex flex-wrap md:flex-nowrap justify-between items-center">
-      <NuxtLink to="/">
+      <NuxtLink to="/" @click.native="hideMenus">
         <div class="text-xl font-bold uppercase">
           Film Junk
         </div>
@@ -41,7 +41,7 @@
                   </transition>
                 </div>
 
-                <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
+                <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="hideMenus"
                 class="hover:text-blue-200" v-html="text" />
               </div>
             </nav>
@@ -63,7 +63,10 @@ export default {
 
   methods: {
     hideMenus() {
-      this.show = false;
+      if (window.innerWidth <= 767) {
+        this.show = false;
+      }
+
       this.show_episodes = false;
     }
   },
