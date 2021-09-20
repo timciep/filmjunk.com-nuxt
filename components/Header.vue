@@ -8,7 +8,7 @@
       </NuxtLink>
 
       <div class="md:hidden text-xl">
-        <button @click="show = ! show" class="py-2 px-4">
+        <button @click="show = ! show" class="py-2 px-2">
           <font-awesome-icon v-show="! show" :icon="['fas', 'bars']" />
           <font-awesome-icon v-show="show" :icon="['fas', 'times']" />
         </button>
