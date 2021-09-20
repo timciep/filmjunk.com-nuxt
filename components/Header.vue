@@ -29,7 +29,7 @@
 
                   <transition name="slide-down">
                     <div v-show="show_episodes"
-                    class="md:absolute w-full md:w-auto md:py-3 mx-auto bg-gray-900 md:bg-black rounded px-3 mt-2 md:mt-0">
+                    class="md:absolute w-full md:w-auto md:py-3 mx-auto bg-gray-900 md:bg-black rounded px-3 mt-4 md:mt-0">
                       <NuxtLink :to="link" @click.native="hideMenus"
                       v-for="text, link in $config.podcast_links" :key="link"
                       class="">
