@@ -14,38 +14,40 @@
         </button>
       </div>
 
-      <div :class="{'hidden': ! show}"
-        class="w-full md:w-auto md:flex flex-col md:flex-row items-center gap-20 py-5 md:py-0"
-      >
-        <div class="">
-          <nav>
-            <div class="flex flex-col md:flex-row gap-6 md:gap-8 justify-center text-center">
-              <div class="mx-auto w-full">
-                <button @click="show_episodes = ! show_episodes">
-                  Podcast Episodes
-                  <font-awesome-icon :icon="['fas', 'angle-down']" />
-                </button>
+      <transition name="slide-down">
+        <div v-show="show"
+          class="w-full md:w-auto md:flex flex-col md:flex-row items-center gap-20 py-5 md:py-0"
+        >
+          <div class="">
+            <nav>
+              <div class="flex flex-col md:flex-row gap-6 md:gap-8 justify-center text-center">
+                <div class="mx-auto w-full">
+                  <button @click="show_episodes = ! show_episodes">
+                    Podcast Episodes
+                    <font-awesome-icon :icon="['fas', 'angle-down']" />
+                  </button>
 
-                <transition>
-                  <div v-show="show_episodes"
-                  class="md:absolute w-full md:w-auto md:py-3 mx-auto bg-gray-900 md:bg-black rounded px-3 mt-2 md:mt-0">
-                    <NuxtLink :to="link" @click.native="hideMenus"
-                    v-for="text, link in $config.podcast_links" :key="link"
-                    class="">
-                      <div class="mx-auto px-6 py-3 hover:text-blue-200">
-                        {{ text }}
-                      </div>
-                    </NuxtLink>
-                  </div>
-                </transition>
+                  <transition name="slide-down">
+                    <div v-show="show_episodes"
+                    class="md:absolute w-full md:w-auto md:py-3 mx-auto bg-gray-900 md:bg-black rounded px-3 mt-2 md:mt-0">
+                      <NuxtLink :to="link" @click.native="hideMenus"
+                      v-for="text, link in $config.podcast_links" :key="link"
+                      class="">
+                        <div class="mx-auto px-6 py-3 hover:text-blue-200">
+                          {{ text }}
+                        </div>
+                      </NuxtLink>
+                    </div>
+                  </transition>
+                </div>
+
+                <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
+                class="hover:text-blue-200" v-html="text" />
               </div>
-
-              <NuxtLink v-for="text, link in $config.links" :key="link" :to="link" @click.native="show = false"
-              class="hover:text-blue-200" v-html="text" />
-            </div>
-          </nav>
+            </nav>
+          </div>
         </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -54,7 +56,7 @@
 export default {
   data() {
     return {
-      show: false,
+      show: window.innerWidth > 767, // tailwind md:
       show_episodes: false,
     };
   },
@@ -67,3 +69,22 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .slide-down-enter-active,
+  .slide-down-leave-active {
+    transition: max-height 0.3s ease;
+  }
+
+  .slide-down-enter-to,
+  .slide-down-leave {
+    overflow: hidden;
+    max-height: 1000px;
+  }
+
+  .slide-down-enter,
+  .slide-down-leave-to {
+    overflow: hidden;
+    max-height: 0;
+  }
+</style>
